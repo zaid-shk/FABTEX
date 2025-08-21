@@ -65,15 +65,17 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 30% 5% 7% 7% 5% 5% 5% 5% 3% ;
+    grid-template-columns: 30% 5% 7% 7% 5% 5% 5% 5% 3%;
     gap: 2vw;
     font-size: 1.3vw;
 }
-#top-down-nav #T{
+
+#top-down-nav #T {
     display: flex;
     gap: 2vw;
 }
-#top-down-nav #serc{
+
+#top-down-nav #serc {
     background-color: #ff7b00;
     height: 3.5vh;
     width: 1.8vw;
@@ -81,13 +83,15 @@ body {
     margin-left: 4.6vw;
     /* margin-top: .1vh; */
 }
-#top-down-nav input{
+
+#top-down-nav input {
     height: 3vh;
     width: 8vw;
     margin-left: 3vw;
     text-align: 12vw;
     padding-left: 2vw;
 }
+
 #top-down-nav a {
     text-decoration: none;
     color: wheat;
@@ -226,11 +230,13 @@ body {
     font-size: 1.5vw;
     align-items: center;
 }
-#page2 h2{
+
+#page2 h2 {
     color: rgba(254, 255, 255, 0.808);
     text-align: center;
 }
-#page2 button{
+
+#page2 button {
     /* padding: .3vh; */
     margin: .8vw;
     padding: .8vh 2vw;
@@ -240,69 +246,82 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-#page3{
+
+#page3 {
     height: 70vh;
     width: 100vw;
     background: #4e4d4d;
 
 }
-#show{
+
+#show {
     padding-top: 10vh;
     display: flex;
     /* gap: 2vw; */
     align-items: center;
     justify-content: center;
 }
-#show .box{
+
+#show .box {
     background-color: antiquewhite;
     height: 40vh;
     width: 40vw;
 }
-#show #ek{
+
+#show #ek {
     background: url(/code/products/Linen\ Back\ Tab\ Curtain\ Panel\ for\ Dining\ Room\ -\ Custom\ Width\,\ Custom\ Length\ -\ 49\ _\ 116\ _\ Privacy\ Cotton.jpg);
-       background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom 0px;
     z-index: 0;
     box-shadow: #898989;
     text-align: center;
 }
-#show .box h3{
+
+#show .box h3 {
     font-size: 2vw;
     /* color: #ff000d; */
     margin-top: 30vh;
 }
-#show #thin{
+
+#show #thin {
     color: rgb(255, 255, 255);
 }
-#show #thin:hover{
+
+#show #thin:hover {
     transform: scale(1.2);
     transition: .4s;
     z-index: 1;
 }
-#show #do{
+
+#show #do {
     color: rgb(122, 0, 0);
 }
-#show #do:hover{
+
+#show #do:hover {
     transform: scale(1.2);
     transition: .4s;
 }
-#show #ek{
+
+#show #ek {
     color: rgb(0, 0, 0);
 }
-#show #ek:hover{
+
+#show #ek:hover {
     transform: scale(1.2);
     transition: .4s;
 }
-#show #do{
+
+#show #do {
     background: url(/code/products/Livin\ Blinds\ offers\ a\ stylish\ way\ to\ control….jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom 0px;
     text-align: center;
-    
+
 }
-#show #thin{
+
+#show #thin {
     background: url(/code/products/b39df120-21d5-47cb-a4ab-6d4b9b771b63.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -310,35 +329,40 @@ body {
     text-align: center;
 
 }
-#showAll{
+
+#showAll {
     border: 2px solid orangered;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     /* padding-top: 2vh; */
-    margin-top: 2vh;
+    margin-top: 4vh;
     padding: 3vh 4vw;
     height: 5vh;
     width: 40vw;
     margin-left: 26vw;
     gap: 1.5vw;
 }
-#showAll h3{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+#showAll h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.2vw;
-}  
-#showAll i{
+}
+
+#showAll i {
     font-size: 2.3vw;
     color: white;
     background-color: #ff7b00;
     border-radius: 30px;
-} 
-#showAll:hover{
+}
+
+#showAll:hover {
     transform: scale(1.2);
     transition: .4s;
 }
-#page4{
+
+#page4 {
     height: 100vh;
     width: 100vw;
     background: url(/code/products/b39df120-21d5-47cb-a4ab-6d4b9b771b63.jpg);
@@ -347,25 +371,262 @@ body {
     background-position: center bottom 0px;
     display: flex;
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
 
 }
-#page4 #box-in{
-    height: 55vh;
-    width: 30vw;
+
+#page4 #box-in {
+    height: 58vh;
+    width: 32vw;
     background-color: #191718;
     /* top : 20vh; */
     margin-top: 6vh;
     /* padding-top: 20vh; */
     margin-left: 20vw;
-    border:8px solid #f7f6f536;
+    /* border:8px solid #f7f6f536; */
+    background-color: #191718;
+    box-shadow: 0 0 5px 10px #afadad93;
+
 }
-.text h2{
-    color: white;
+
+.text h2 {
+    color: #EEEBEC;
     margin-top: 4vh;
     line-height: 1vh;
     margin-left: 1vw;
 }
-.p p{
-    color: white;
+
+.P p {
+    color: #676565;
+    margin: 3vh;
+}
+
+.second-text h2 {
+    color: #C3C1C2;
+    text-align: start;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+}
+
+.boxs {
+    display: flex;
+    /* gap: 2vw; */
+    justify-content: space-around;
+}
+
+.box-s {
+    height: 12vh;
+    width: 9vw;
+    /* background-color: #ff7b00; */
+}
+
+#phela {
+    background: url(/code/products/Merlot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+
+}
+
+#dusra {
+    background: url(/code/products/See\ the\ Mahogany\ Velvet\ Fabric\ in\ your\ own….jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+}
+
+#tisra {
+    background: url(/code/products/This\ pattern\ is\ priced\ by\ the….jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+}
+
+#names {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2.6vw;
+    font-size: .8vw;
+    color: #89827B;
+}
+
+#page5 {
+    height: 63vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 55% 50%;
+}
+
+#about {
+    background: #201E1F;
+
+}
+
+#about h1 {
+    text-align: start;
+    margin-left: 5.7vw;
+    margin-top: 2vh;
+    color: wheat;
+
+}
+
+#about p {
+    margin-right: 1vw;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    color: #5B595A;
+    font-size: 1.2rem;
+}
+
+#about button {
+    height: 7vh;
+    width: 10vw;
+    margin-top: 2.9vh;
+    margin-left: 6vw;
+    background-color: #ff7300;
+    font-size: 1.5vw;
+    color: wheat;
+    cursor: pointer;
+}
+
+#latest-news {
+    background: #201E1F;
+
+}
+
+#latest-news h1 {
+    margin-left: 12vw;
+    margin-top: 2vh;
+    color: wheat;
+}
+
+#latest-news p {
+    margin-right: 8vw;
+    margin-left: 12vw;
+    margin-top: 5vh;
+    color: #5B595A;
+    font-size: 1.2rem;
+
+}
+
+#latest-news button {
+    height: 7vh;
+    width: 10vw;
+    margin-top: 10vh;
+    margin-left: 12vw;
+    background-color: #ff7300;
+    font-size: 1.5vw;
+    color: wheat;
+    cursor: pointer;
+
+}
+
+#page6 {
+    height: 40vh;
+    background: #0C0A0B;
+    display: grid;
+    grid-template-columns: 30% 15% 15% 15% 35%;
+}
+
+#page6 #logo {
+    height: 50vh;
+    color: rgb(153, 153, 153);
+    margin-left: 2vw;
+    /* background: #676565; */
+}
+
+#page6 #logo p {
+    margin-top: 3vh;
+    margin-right: 5vw;
+}
+
+#page6 .link {
+    display: flex;
+    font-size: .5ren;
+    /* justify-content: center; */
+    margin-top: 3vh;
+    /* align-items: center;
+    text-align: start; */
+    flex-direction: column;
+}
+
+#page6 a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+#page6 h1 {
+    /* text-align: center; */
+    margin-top: 3vh;
+    color: rgb(119, 119, 119);
+}
+
+#page6 #sidemap {
+    height: 40vh;
+    color: wheat;
+    /* background: #75ff7c; */
+}
+
+#page6 #fabrics {
+    height: 40vh;
+    color: wheat;
+    /* background: #0cddd3; */
+}
+
+#page6 #products {
+    height: 40vh;
+    /* background: #f87e7e; */
+}
+
+#page6 #contact {
+    height: 40vh;
+    /* background: #641818; */
+}
+
+#add h4 {
+    margin-right: 15vw;
+
+
+}
+
+.add i {
+    font-size: 1.5vw;
+}
+
+#contact .add {
+    display: flex;
+    gap: 1vw;
+    line-height: 3.6vh;
+    color: rgb(128, 128, 128);
+}
+
+#page7 {
+    height: 10vh;
+    background: #2e2124;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    color:  rgb(128, 128, 128);
+}
+
+#page7 #condition {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    gap: 1vw;
+}
+#condition .copy{
+    border-right: 2px solid gray;
+    padding-right: 1vw;
+}
+#page7 .follow{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+#page7 .follow i{
+    font-size: 2vw;
 }
