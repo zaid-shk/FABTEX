@@ -629,4 +629,5 @@ body {
 }
 #page7 .follow i{
     font-size: 2vw;
+    cursor: pointer;
 }
