@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-    background-color: #292929;
+    background-color: #201E1F;
     height: 100vh;
     width: 100vw;
     /* color: white; */
@@ -34,36 +34,322 @@ body {
     border-bottom: 2px solid #898989;
     border-bottom-left-radius: 30px;
 
-    background-color: #353535;
-    font-size: .9rem;
+    background-color: #232021;
+    font-size: 1rem;
 }
 
 #top-to-top-nav a {
     text-decoration: none;
-    color: white;
+    color: #99A19D;
+    text-align: center;
 }
 
 #login-register {
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
+    margin-top: .5vh;
 }
-#top-down-nav h3{
+
+#top-down-nav h3 {
     color: wheat;
     font-size: 2.5vw;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;
-    
+
 }
+
 #top-down-nav {
     color: wheat;
     margin-top: 5vh;
+    margin-right: 7vw;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 30% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-columns: 30% 5% 7% 7% 5% 5% 5% 5% 3% ;
+    gap: 2vw;
+    font-size: 1.3vw;
+}
+#top-down-nav #T{
+    display: flex;
     gap: 2vw;
 }
-#top-down-nav a{
+#top-down-nav #serc{
+    background-color: #ff7b00;
+    height: 3.5vh;
+    width: 1.8vw;
+    text-align: center;
+    margin-left: 4.6vw;
+    /* margin-top: .1vh; */
+}
+#top-down-nav input{
+    height: 3vh;
+    width: 8vw;
+    margin-left: 3vw;
+    text-align: 12vw;
+    padding-left: 2vw;
+}
+#top-down-nav a {
     text-decoration: none;
     color: wheat;
+    /* margin-left: 2vw; */
+}
+
+#top-down-nav #Home {
+    padding: .5vw;
+    text-align: center;
+    border-radius: 10px;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #hos {
+    padding-left: .5vw;
+    padding-right: .6vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    border-radius: 10px;
+    text-align: center;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #health {
+    padding-left: .5vw;
+    padding-right: .6vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    border-radius: 10px;
+    text-align: center;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #contect {
+    padding: .5vw;
+    text-align: center;
+    border-radius: 10px;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #green {
+    padding: .5vw;
+    text-align: center;
+    border-radius: 10px;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #resource {
+    padding-bottom: .5vw;
+    padding-left: .5vw;
+    padding-top: .5vw;
+    padding-right: .6vw;
+    border-radius: 10px;
+    text-align: center;
+    /* background: #ce2a2a; */
+}
+
+#top-down-nav #hos:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#top-down-nav #health:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#top-down-nav #contect:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#top-down-nav #green:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#top-down-nav #resource:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#top-down-nav #Home:hover {
+    background-color: orangered;
+    transition: .4s;
+}
+
+#page1 {
+    margin-top: 2vh;
+    background: url(/code/products/point3d-commercial-imaging-ltd-Kqpw00namok-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+
+    height: 80vh;
+    width: 100vw;
+
+}
+
+#page1 h2 {
+    padding-top: 3vh;
+    padding-left: 9vw;
+    line-height: 8vh;
+    /* rotate: 16deg; */
+    font-size: 2.8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(243, 240, 240);
+    /* color: transparent; */
+}
+
+#page1 button {
+    padding: 3vh 2vw;
+    font-size: 1.8vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 9vw;
+    margin-top: 20vh;
+    background-color: rgb(255, 69, 0);
+    cursor: pointer;
+    border: 2px;
+    border-radius: 4vw;
+}
+
+#page1 button:hover {
+    background-color: rgb(197, 55, 3);
+}
+
+#page2 {
+    background: #000;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    /* text-align: center; */
+    font-size: 1.5vw;
+    align-items: center;
+}
+#page2 h2{
+    color: rgba(254, 255, 255, 0.808);
+    text-align: center;
+}
+#page2 button{
+    /* padding: .3vh; */
+    margin: .8vw;
+    padding: .8vh 2vw;
+    font-size: 1.6vw;
+    color: white;
+    background-color: rgba(245, 67, 2, 0.925);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#page3{
+    height: 70vh;
+    width: 100vw;
+    background: #4e4d4d;
+
+}
+#show{
+    padding-top: 10vh;
+    display: flex;
+    /* gap: 2vw; */
+    align-items: center;
+    justify-content: center;
+}
+#show .box{
+    background-color: antiquewhite;
+    height: 40vh;
+    width: 40vw;
+}
+#show #ek{
+    background: url(/code/products/Linen\ Back\ Tab\ Curtain\ Panel\ for\ Dining\ Room\ -\ Custom\ Width\,\ Custom\ Length\ -\ 49\ _\ 116\ _\ Privacy\ Cotton.jpg);
+       background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+    z-index: 0;
+    box-shadow: #898989;
+    text-align: center;
+}
+#show .box h3{
+    font-size: 2vw;
+    /* color: #ff000d; */
+    margin-top: 30vh;
+}
+#show #thin{
+    color: rgb(255, 255, 255);
+}
+#show #thin:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    z-index: 1;
+}
+#show #do{
+    color: rgb(122, 0, 0);
+}
+#show #do:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+#show #ek{
+    color: rgb(0, 0, 0);
+}
+#show #ek:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+#show #do{
+    background: url(/code/products/Livin\ Blinds\ offers\ a\ stylish\ way\ to\ control….jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+    text-align: center;
+    
+}
+#show #thin{
+    background: url(/code/products/b39df120-21d5-47cb-a4ab-6d4b9b771b63.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+    text-align: center;
+
+}
+#showAll{
+    border: 2px solid orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 2vh; */
+    margin-top: 2vh;
+    padding: 3vh 4vw;
+    height: 5vh;
+    width: 40vw;
+    margin-left: 26vw;
+    gap: 1.5vw;
+}
+#showAll h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2vw;
+}  
+#showAll i{
+    font-size: 2.3vw;
+    color: white;
+    background-color: #ff7b00;
+    border-radius: 30px;
+} 
+#showAll:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background: url(/code/products/b39df120-21d5-47cb-a4ab-6d4b9b771b63.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom 0px;
+
+}
+#page4 #box-in{
+    height: 60vh;
+    width: 30vw;
+    background-color: #99A19D;
+    top : 20vh;
 }
