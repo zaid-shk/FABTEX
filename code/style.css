@@ -345,11 +345,27 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom 0px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 
 }
 #page4 #box-in{
-    height: 60vh;
+    height: 55vh;
     width: 30vw;
-    background-color: #99A19D;
-    top : 20vh;
+    background-color: #191718;
+    /* top : 20vh; */
+    margin-top: 6vh;
+    /* padding-top: 20vh; */
+    margin-left: 20vw;
+    border:8px solid #f7f6f536;
+}
+.text h2{
+    color: white;
+    margin-top: 4vh;
+    line-height: 1vh;
+    margin-left: 1vw;
+}
+.p p{
+    color: white;
 }
