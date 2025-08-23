@@ -17,6 +17,9 @@ body {
     width: 100vw;
     /* color: white; */
 }
+.respon {
+    display: none;
+}
 
 #top-to-top-nav {
     margin-left: 55vw;
@@ -630,4 +633,87 @@ body {
 #page7 .follow i{
     font-size: 2vw;
     cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    *{
+    margin:0;
+    padding:0;
+}
+#main{
+    background-color: #201E1F;
+    height: 100%;
+    color: white;
+}
+.respon{
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.respon h1{
+    text-align: center;
+    padding-left: 35vw;
+    display: flex;
+    align-items: center;
+}
+.respon i{
+    display: block;
+    margin-left: 27vw;
+    /* margin-top: 2vh; */
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+}
+#top-to-top-nav {
+    border: 0;
+    border-radius: 0;
+    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding-left: 6vw;
+    padding-right: 30px;
+    }
+    #top-to-top-nav a{
+    text-decoration: none;
+    color: white;
+    line-height: 7vw;
+    flex-wrap: wrap;
+}
+#login-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top-down-nav {
+    margin-top: 2vh;
+    display: none;
+    text-align: center;
+    line-height: 3vh;
+        margin-left: 2.5vw;
+}
+
+#top-down-nav .name {
+    text-align: center;
+    margin-left: 7vw;
+    /* font-size: 10vw; */
+}
+#top-down-nav h3{
+    font-size: 5vw;
+}
+
+#top-down-nav a {
+    line-height: 2vh;
+    color: white;
+    text-decoration: none;
+    font-size: 2.8vw;
+    margin-left: 7vw;
+}
+#top-down-nav input{
+    margin-left: 10vw;
+    width: 30vw;
+    height: 1.4vh;
+}
 }
