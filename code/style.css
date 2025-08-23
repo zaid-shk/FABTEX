@@ -18,6 +18,10 @@ body {
     /* color: white; */
 }
 
+.respon {
+    display: none;
+}
+
 #top-to-top-nav {
     margin-left: 55vw;
     margin-right: 5vw;
@@ -608,7 +612,7 @@ body {
     justify-content: center;
     grid-template-columns: 60% 40%;
     align-items: center;
-    color:  rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
 }
 
 #page7 #condition {
@@ -617,17 +621,202 @@ body {
     margin-left: 3vw;
     gap: 1vw;
 }
-#condition .copy{
+
+#condition .copy {
     border-right: 2px solid gray;
     padding-right: 1vw;
 }
-#page7 .follow{
+
+#page7 .follow {
     display: flex;
     gap: 2vw;
     align-items: center;
     justify-content: center;
 }
-#page7 .follow i{
+
+#page7 .follow i {
     font-size: 2vw;
     cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main {
+        background-color: #201E1F;
+        height: 100%;
+        color: white;
+    }
+
+    .respon {
+
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .respon h1 {
+        text-align: center;
+        padding-left: 35vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .respon i {
+        display: block;
+        margin-left: 27vw;
+        /* margin-top: 2vh; */
+        display: flex;
+        align-items: center;
+        font-size: 5vw;
+    }
+
+    #top-to-top-nav {
+        display: none;
+        border: 0;
+        border-radius: 0;
+        /* display: flex; */
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        margin-left: 5vw;
+        padding-left: 6vw;
+        background-color: transparent;
+        padding-right: 30px;
+    }
+
+    #top-to-top-nav a {
+        text-decoration: none;
+        color: white;
+        line-height: 7vw;
+        flex-wrap: wrap;
+    }
+
+    #login-register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #top-down-nav {
+        margin-top: 2vh;
+        display: none;
+        text-align: center;
+        line-height: 3vh;
+        margin-left: 2.5vw;
+    }
+
+    #top-down-nav .name {
+        text-align: center;
+        margin-left: 7vw;
+        /* font-size: 10vw; */
+    }
+
+    #top-down-nav h3 {
+        font-size: 5vw;
+    }
+
+    #top-down-nav a {
+        line-height: 2vh;
+        color: white;
+        text-decoration: none;
+        font-size: 2.8vw;
+        margin-left: 7vw;
+    }
+
+    #top-down-nav input {
+        margin-left: 10vw;
+        width: 30vw;
+        height: 1.4vh;
+    }
+
+    #page1 h2 {
+        font-size: 6vw;
+        color: #000;
+        line-height: 5vh;
+        padding-top: 55vh;
+        padding-left: 26vw;
+
+    }
+
+    #page1 button {
+        margin-top: 3vh;
+        margin-left: 26vw;
+        font-size: 2.6vw;
+    }
+
+    #page2 h2 {
+        font-size: 2.6vw;
+    }
+
+    #page3 #showAll {
+        font-size: 3vw;
+        width: 50vw;
+        margin-top: 5vh;
+        margin-left: 25vw;
+        padding: 0;
+    }
+    #page4{
+        display: flex;
+        align-items: normal;
+    }
+    #page4 #box-in {
+        margin: 0%;
+        padding: 0;
+        width: 300vw;
+    }
+    #box-in .text{
+        margin: 0;
+        padding: 0;
+    }
+    #box-in .p{
+        margin: 0;
+        padding: 0;
+
+    }
+    #box-in .box-s{
+        width: 20vw;
+        height: 10vh;
+    }
+    #box-in #names{
+        font-size: 2vw;
+    }
+    #box-in #mahon , #mer , #blank{
+        margin-right: 3vw;
+    }
+    #page5 h1{
+        font-size: 4vw;
+        margin-left: vw;
+        /* height: 100vh; */
+    }
+    #page5 p{
+        font-size: 2.5vw;
+        margin-top: 2vh;
+    }
+    #page5 button{
+        width: 30vw;
+        height: 5vh;
+        font-size: 3vw;
+    }
+    #page6{
+        height: 20vh;
+        font-size: 1.4vw;
+    }
+    #page6 h1{
+        margin-bottom: 2.7vh;
+    }
+    #page6 #contact{
+        margin-left: 4vw;
+    }
+    #page6 #contact .add{
+        line-height: 1vh;
+    }
+    #page7{
+        font-size: 1.6vw;
+        height: 6vh;
+    }
 }
